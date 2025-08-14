@@ -1,3 +1,8 @@
+# 📚 Today I Learned
+
+매일 공부한 내용을 기록하는 TIL(Today I Learned) 저장소입니다.  
+짧더라도 매일, 꾸준히 기록하는 것을 목표로 합니다.
+
 ---
 
 ## 🗂 카테고리
@@ -7,7 +12,7 @@
 - **DB**
   - MySQL, 인덱스, 트랜잭션, 쿼리 최적화, 설계 패턴
 - **Spring**
-  - Spring Core, Spring Boot, Spring MVC, Spring Security, JPA, 등
+  - Spring Core, Spring Boot, Spring MVC, Spring Security, JPA 등
 
 ---
 
