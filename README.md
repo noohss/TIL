@@ -19,7 +19,7 @@
 ## 📖 참고 자료
 
 ### Java
-- [자바의 정석 (3판)](https://product.kyobobook.co.kr/detail/S000216877323)
+- [자바의 정석 (4판)](https://product.kyobobook.co.kr/detail/S000216877323)
 
 ### DB
 - [Real MySQL 8.0 (1권)](https://product.kyobobook.co.kr/detail/S000001810284)
