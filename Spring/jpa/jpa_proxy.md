@@ -67,8 +67,8 @@ Hibernate.initialize(member);
 - 단점: 불필요한 SQL Join 발생 → 성능 저하 가능
 
 ### 5.2 지연 로딩(Lazy Loading)
-- 실제 연관 객체를 사용할 때 쿼리 실행 이때 
-- 연관된 객체는 프록시로 활용되기 때문에 사용시까지 쿼리 발생 안함(N+1 방지)
+- 실제 연관 객체를 사용할 때 쿼리 실행
+- 연관된 객체는 프록시로 활용되기 때문에 사용할 때까지 쿼리 발생 안함(N+1 방지)
 - `@OneToMany(fetch = FetchType.LAZY)` 기본값
 - 장점: 필요한 시점에만 로딩 → 성능 최적화
 - 단점: 프록시 초기화 타이밍을 신경써야 함 (영속성 컨텍스트가 닫히면 LazyInitializationException 발생)
